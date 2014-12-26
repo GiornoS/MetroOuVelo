@@ -12,11 +12,13 @@
   
   <icon src="icon.png" />
   
-  <icon src="Icons/ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
-  <icon src="Icons/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
-  <icon src="Icons/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
-  <icon src="Icons/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
-
+  <platform name="android">
+    <icon src="Icons/ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
+    <icon src="Icons/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
+    <icon src="Icons/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
+    <icon src="Icons/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
+  </platform>
+  
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
