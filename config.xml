@@ -12,10 +12,13 @@
   
   <icon src="icon.png" />
   
-    <icon src="Icons/ldpi/icon.png" gap:platform="android" gap:qualifier="ldpi" />
-    <icon src="Icons/mdpi/icon.png" gap:platform="android" gap:qualifier="mdpi" />
-    <icon src="Icons/hdpi/icon.png" gap:platform="android" gap:qualifier="hdpi" />
-    <icon src="Icons/xhdpi/icon.png" gap:platform="android" gap:qualifier="xhdpi" />
+  <platform name="android">
+    <icon src="Icons/ldpi/icon.png" density="ldpi" />
+    <icon src="Icons/mdpi/icon.png" density="mdpi" />
+    <icon src="Icons/hdpi/icon.png" density="hdpi" />
+    <icon src="Icons/xhdpi/icon.png" density="xhdpi" />
+  </platform>
+
 
   
   <preference name="webviewbounce" value="false"/>
