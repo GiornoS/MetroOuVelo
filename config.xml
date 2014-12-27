@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.ionicframework.myappter480578" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>MyAppTer</name>
+  <name>Métro ou Vélib ?</name>
   <description>
-        An Ionic Framework and Cordova project.
+        Application permettant de prévoir quel moyen de locomotion est idéal pour un trajet à un instant donné.
     </description> 
   <author email="hi@ionicframework" href="http://ionicframework.com/">
       Ionic Framework Team
     </author>
+    
   <content src="index.html"/>
   <access origin="*"/>
+  
+  <gap:platform name="android" />
   
   <icon src="icon.png" />
   
