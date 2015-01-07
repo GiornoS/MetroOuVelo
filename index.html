@@ -23,16 +23,34 @@
   </head>
   <body ng-app="starter">
 
-    <ion-pane>
-      <ion-header-bar class="bar-stable">
-        <h1 class="title"><center> M&eacutetro ou V&eacutelib' ? <br /><br /><br /> </center></h1>
-      </ion-header-bar>
-      <ion-content>
-		<figure>
-		    <center><img src="Images/MetroOuVelo.png" alt="Logo Métrou ou Vélo" /> </center>
-		    <figcaption><center><strong>L'application "Métro ou Vélib' ?"</strong></center></figcaption>
-		</figure>
-      </ion-content>
-    </ion-pane>
+	<ion-header-bar class="bar-positive">
+		<h1 class="title"><center> M&eacutetro ou V&eacutelib' ? <br /><br /><br /> </center></h1>
+	</ion-header-bar>
+    
+    <ion-tabs class="tabs-positive">
+		<ion-tab title="Home">
+		    <ion-content>
+				<figure>
+					<center><img src="Images/MetroOuVelo.png" alt="Logo Métrou ou Vélo" /> </center>
+					<figcaption><center><strong>L'application "Métro ou Vélib' ?"</strong></center></figcaption>
+				</figure>
+			</ion-content>
+		</ion-tab>
+		<ion-tab Title="Adresse">
+			<ion-content>
+				<br />
+				<br />
+				<div class="list list-inset">
+					<label class="item item-input">
+						<i class="icon ion-search placeholder-icon"></i>
+						<input type="search" placeholder="Où voulez-vous aller ?">
+					</label>
+				</div>
+			</ion-content>
+		</ion-tab>
+    </ion-tabs>
+
+
+    
   </body>
 </html>
